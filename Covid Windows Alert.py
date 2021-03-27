@@ -5,7 +5,7 @@ import datetime
 
 # Testing connection to REST API
 try:
-    data = requests.get("http://corona-rest-api.herokuapp.com/Api/india")
+    data = requests.get("http://corona-rest-api.herokuapp.com/Api/pakistan")
 except:
     print("You are not connected to a network. Please check internet connection.")
     data = None
