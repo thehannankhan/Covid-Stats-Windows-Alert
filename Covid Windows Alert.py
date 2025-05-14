@@ -19,7 +19,7 @@ if data is not None:
     # Covid statistics
     message="""In Pakistan Covid-19 Cases: {}, Deaths: {}, Recovered: {}, Cases Today: {}""".format(covidPK["cases"],covidPK["deaths"],covidPK["recovered"],covidPK["todayCases"])
 
-    # Assigning Win10Toast to var
+    # Assigning Win10Toast to variable
     toaster = ToastNotifier()
 
     # Defining icon image path
