@@ -22,5 +22,5 @@ if data is not None:
     # Assigning Win10Toast to variable
     toaster = ToastNotifier()
 
-    # Defining icon image path
+    # Defining icon image path.
     toaster.show_toast(title, message, icon_path="E:\Software\Python 3\Python Projects/covid-icon.ico", duration=10)
