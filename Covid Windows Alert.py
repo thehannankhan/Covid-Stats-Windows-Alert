@@ -3,7 +3,7 @@ import requests
 from win10toast import ToastNotifier
 import datetime
 
-# Testing connection to REST API
+# Testing connection to REST API.
 try:
     data = requests.get("http://corona-rest-api.herokuapp.com/Api/pakistan")
 except:
