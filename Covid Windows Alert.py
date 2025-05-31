@@ -1,4 +1,4 @@
-# Importing required libraries
+# Importing required libraries.
 import requests
 from win10toast import ToastNotifier
 import datetime
