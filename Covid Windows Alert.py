@@ -14,7 +14,7 @@ if data is not None:
     getData = data.json()
     covidPK = getData["Success"]
 
-    # Alert Title 
+    # Alert Title.
     title ="""Covid Pakistan / {}""".format(datetime.date.today())
     # Covid statistics
     message="""In Pakistan Covid-19 Cases: {}, Deaths: {}, Recovered: {}, Cases Today: {}""".format(covidPK["cases"],covidPK["deaths"],covidPK["recovered"],covidPK["todayCases"])
