@@ -16,7 +16,7 @@ if data is not None:
 
     # Alert Title.
     title ="""Covid Pakistan / {}""".format(datetime.date.today())
-    # Covid statistics
+    # Covid statistics.
     message="""In Pakistan Covid-19 Cases: {}, Deaths: {}, Recovered: {}, Cases Today: {}""".format(covidPK["cases"],covidPK["deaths"],covidPK["recovered"],covidPK["todayCases"])
 
     # Assigning Win10Toast to variable
